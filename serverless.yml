@@ -2,6 +2,7 @@ service: local-serverless
 
 plugins:
   - serverless-webpack
+  - serverless-offline
 
 custom:
   webpackIncludeModules: true
